@@ -10,7 +10,7 @@
 :root{--red:#ef101b;--red2:#ff3340;--green:#10c96b;--bg:#050708;--panel:#0b0f12;--text:#f6f6f6;--muted:#aeb4b9;--line:rgba(255,255,255,.10)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}.container{width:min(1180px,92%);margin:auto}
 /* HEADER: barra superior, logo e navegação. */
-.header{position:sticky;top:0;z-index:50;background:rgba(4,6,8,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,30,40,.18)}.nav{min-height:86px;display:flex;align-items:center;gap:28px}.brand{display:flex;align-items:center;flex:0 0 auto}.brand img{display:block;width:126px;height:126px;object-fit:contain;filter:drop-shadow(0 0 18px rgba(255,20,30,.2));margin-top:20px;margin-bottom:-20px}.menu{display:flex;gap:26px;margin-left:auto}.menu a{font-size:13px;color:#d9dde0;transition:.25s}.menu a:hover{color:#fff}/* HEADER / CONTATOS — ÁREA AFETADA:
+.header{position:sticky;top:0;z-index:50;background:rgba(4,6,8,.92);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,30,40,.18)}.nav{min-height:86px;display:flex;align-items:center;gap:28px}.brand{display:flex;align-items:center;flex:0 0 auto}.brand img{display:block;width:115px;height:115px;object-fit:contain;filter:drop-shadow(0 0 18px rgba(255,20,30,.2));margin-top:20px;margin-bottom:-20px}.menu{display:flex;gap:26px;margin-left:auto}.menu a{font-size:13px;color:#d9dde0;transition:.25s}.menu a:hover{color:#fff}/* HEADER / CONTATOS — ÁREA AFETADA:
    Instagram, WhatsApp e Localização ficam agrupados neste bloco.
    O HTML dos botões está em .header-contact no index.html.
 */
